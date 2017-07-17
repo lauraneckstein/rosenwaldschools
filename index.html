@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rosenwald Schools Choropleth Map</title>
+    <description>Choropleth Map of Rosenwald Schools in the American South</description>
+ 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+	 <div class="container">
+		 <div class="page-header">
+	  <h1>Rosenwald Schools Choropleth Map<small> by <a target= "_blank" href="https://twitter.com/lauraneckstein">Laura Newman Eckstein</a></small> </h1>
+	  <h6>Credit and Thanks to the <a target="_blank" href="http://rosenwald.fisk.edu/">Fisk University Rosenwald Fund Card File Database</a> and <a target="_blank" href="https://twitter.com/scottenderle?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Scott Enderle</a>  </h6> 
+
+		 </div>
+		 <a style="float: right !important" href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Go check out this map of Rosenwald Schools in the American South! " data-url="https://lauraneckstein.github.io/rosenwaldschools/" data-via="lauraneckstein" data-hashtags="rosenwaldmap" data-show-count="true">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Flauraneckstein.github.io%2Frosenwaldschools%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- This div displays the container, tabs, and map; add title and caption if desired -->
+  <div class="interactiveContainer">
+	  
+   
+      <div id="map"></div>
+      
+    </div>
+    
+	 </div>
+    <script type="text/javascript" src="https://unpkg.com/simple-statistics@4.1.0/dist/simple-statistics.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
